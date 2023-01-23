@@ -1,0 +1,138 @@
+#Content1 p {
+    line-height: 25%;
+}
+
+#container {
+    width: 30%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px
+}
+
+.seperator {
+    height: 10px;
+    background-color: black;
+}
+
+#Content2 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#Content2 p {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+#Content2 p:first-child {
+    margin-top: 10px;
+}
+
+#Content3 {
+    display: flex;
+}
+
+.p1 {
+    flex-basis: 80%;
+}
+
+.p2 {
+    flex-basis: 10%;
+    text-align: end;
+}
+
+#Content3 p {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.seperator2 {
+    height: 1px;
+    background-color: black;
+    margin-top: 0px;
+}
+
+.Content4 {
+    display: flex;
+}
+
+.Content4 p {
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+}
+
+#seperator3 {
+    background-color: black;
+    height: 5px;
+    margin-top: 5px;
+}
+
+#seperator4 {
+    background-color: black;
+    height: 3.5px;
+    margin-top: 0px
+}
+
+.marginl {
+    margin-left: 15px;
+}
+
+#Content5 {
+    display: flex;
+    justify-content: end;
+}
+
+#Content5 p {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+#margind {
+    margin-bottom: 3px;
+}
+
+#text1 {
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+#text1 p {
+    margin: 0px;
+}
+
+.p_0 {
+    flex-basis: 46%;
+}
+
+.p_1 {
+    flex-basis: 18%;
+}
+
+.Content6 {
+    display: flex;
+}
+
+.Content6 p {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 1.5px;
+    padding-bottom: 2px;
+}
+
+#Abstand0 {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+#Content7 {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
