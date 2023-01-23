@@ -19,6 +19,11 @@
         /*    justify-content: flex-start; */
         /* align-items: flex-start; */
         
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
         .container {
             width: 20%;
             /*  background-color: lightgray; */
@@ -34,8 +39,6 @@
         }
         
         header {
-            margin: 0px;
-            line-height: 70%;
             font-weight: bold;
         }
         
@@ -46,10 +49,6 @@
         
         p {
             font-size: 1em;
-        }
-        
-        .p {
-            line-height: 30%;
         }
         
         .fatLine {
@@ -72,21 +71,22 @@
             justify-content: space-between;
             font-size: 1em;
             align-items: center;
-            height: 30px;
+            height: 20px;
         }
         
         .box3 {
             display: flex;
             justify-content: space-between;
-            font-size: 0.9em;
+            font-size: 1em;
             align-items: center;
-            height: 30px;
+            height: 20px;
+            padding-left: 22px;
         }
         
         .box4 {
             display: flex;
             justify-content: flex-end;
-            font-size: 0.7em;
+            font-size: 0.8em;
             align-items: center;
             height: 20px;
         }
@@ -99,12 +99,29 @@
             height: 20px;
         }
         
+        .box6 {
+            display: flex;
+            justify-content: flex-start;
+            font-size: 1em;
+            align-items: center;
+            height: 20px;
+        }
+        
+        .box7 {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1em;
+            align-items: left;
+            height: 100px;
+            font-size: 0.8em;
+            padding: 0px;
+        }
+        
         .line1 {
             height: 1px;
             background-color: black;
             align-items: center;
             padding: 0px;
-            margin: 0px;
         }
         
         .line2 {
@@ -120,7 +137,6 @@
             background-color: black;
             align-items: center;
             padding: 0px;
-            margin: 0px;
         }
         
         .line4 {
@@ -128,7 +144,6 @@
             background-color: black;
             align-items: center;
             padding: 0px;
-            margin: 0px;
         }
         
         .line5 {
@@ -136,6 +151,27 @@
             background-color: black;
             align-items: center;
             margin-left: 20px;
+        }
+        
+        .line6 {
+            height: 2.5px;
+            background-color: darkgrey;
+            align-items: center;
+            padding: 0px;
+        }
+        
+        .line7 {
+            height: 1px;
+            background-color: darkgrey;
+            align-items: center;
+            padding: 0px;
+        }
+        
+        .line8 {
+            height: 2.5px;
+            background-color: lightgray;
+            align-items: center;
+            padding: 0px;
         }
         
         .alignLeft {
@@ -198,6 +234,79 @@
             <p class="alignRight2">8%</p>
         </div>
         <div class="line5"></div>
+        <div class="box3">
+            <p class="alignLeft">Saturated Fat 1.5g</p>
+            <p class="alignRight1">8%</p>
+            <p class="alignRight2">13%</p>
+        </div>
+        <div class="line2"></div>
+        <div class="box3">
+            <p class="alignLeft">Trans Fat 0g</p>
+        </div>
+        <div class="line1"></div>
+        <div class="box5">
+            <p class="alignLeft">Cholesterol Omg</p>
+            <p class="alignRight1">0%</p>
+            <p class="alignRight2">3%</p>
+        </div>
+        <div class="line1"></div>
+        <div class="box5">
+            <p class="alignLeft">Sodium 190mg</p>
+            <p class="alignRight1">8%</p>
+            <p class="alignRight2">11%</p>
+        </div>
+        <div class="line1"></div>
+        <div class="box5">
+            <p class="alignLeft">Total Carbohydrate 39mg</p>
+            <p class="alignRight1">13%</p>
+            <p class="alignRight2">15%</p>
+        </div>
+        <div class="line5"></div>
+        <div class="box3">
+            <p class="alignLeft">Dietary Fiber 6g</p>
+            <p class="alignRight1">24%</p>
+            <p class="alignRight2">24%</p>
+        </div>
+        <div class="line5"></div>
+        <div class="box3">
+            <p class="alignLeft">Sugars 11g</p>
+        </div>
+        <div class="line1"></div>
+        <div class="box6">
+            <p class="alignLeft">Proteins 4g</p>
+        </div>
+        <div class="fatLine"></div>
+        <div class="box5">
+            <p class="alignLeft">Vitamin A</p>
+            <p class="alignRight1">0%</p>
+            <p class="alignRight2">6%</p>
+        </div>
+        <div class="line6"></div>
+        <div class="box5">
+            <p class="alignLeft">Vitamin C</p>
+            <p class="alignRight1">0%</p>
+            <p class="alignRight2">2%</p>
+        </div>
+        <div class="line7"></div>
+        <div class="box5">
+            <p class="alignLeft">Calcium</p>
+            <p class="alignRight1">2%</p>
+            <p class="alignRight2">15%</p>
+        </div>
+        <div class="line8"></div>
+        <div class="box5">
+            <p class="alignLeft">Iron</p>
+            <p class="alignRight1">6%</p>
+            <p class="alignRight2">6%</p>
+        </div>
+        <div class="line1"></div>
+        <div class="box7">
+            <p class="text"><sup>&ast;</sup>Amount in Cereal with 1/2 cup 1% milk contributes an <br> additional 60 Calories (10 Calories from Fat). 1g Total Fat (1<br> g Saturated Fat), 10 mg Cholesterol, 70 mg Sodium, 7 g<br>Total Carbohydrate (6 g Sugars), 5 g Protein.<br><sup>&ast;&ast;</sup>Percent
+                daily Values are based on a 2,000 calorie diet. <br>Your daily values may be higher or lower depending on your<br>calorie needs:<br>
+            </p>
+
+        </div>
+
     </div>
 
 </body>
