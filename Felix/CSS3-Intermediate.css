@@ -106,16 +106,16 @@
     margin: 0px;
 }
 
+.Content6 {
+    display: flex;
+}
+
 .p_0 {
     flex-basis: 46%;
 }
 
 .p_1 {
     flex-basis: 18%;
-}
-
-.Content6 {
-    display: flex;
 }
 
 .Content6 p {
@@ -135,4 +135,8 @@
     justify-content: space-around;
     width: 70%;
     margin: 0 auto;
+}
+
+.paddingl {
+    padding-left: 15px;
 }
